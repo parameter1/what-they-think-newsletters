@@ -7,6 +7,7 @@ const config = {
   },
   'labels-and-packaging': {
     name: 'Labels and Packaging',
+    description: 'Monthly coverage of label and packaging industry news, products, articles, and business management',
   },
 };
 
