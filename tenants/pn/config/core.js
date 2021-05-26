@@ -1,4 +1,7 @@
+const nativeX = require('./native-x');
+
 const config = {
+  nativeX,
   'finishing-and-mailing': {
     name: 'Finishing and Mailing',
   },
