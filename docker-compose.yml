@@ -44,10 +44,10 @@ services:
     environment:
       <<: *env
 
-  all:
+  pn:
     <<: *node
     <<: *newsletter-cmd
-    working_dir: /root/tenants/mprc
+    working_dir: /root/tenants/pn
     environment:
       <<: *env
       <<: *env-caprica
