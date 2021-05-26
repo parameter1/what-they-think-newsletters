@@ -26,7 +26,7 @@ x-env-leonis: &env-leonis
   GRAPHQL_URI: ${GRAPHQL_URI-https://leonis.graphql.base.parameter1.com}
 
 x-env-caprica: &env-caprica
-  GRAPHQL_URI: ${GRAPHQL_URI-https://caprica.graphql.base.parameter1.com}
+  GRAPHQL_URI: ${GRAPHQL_URI-https://caprica.graphql.base-staging.parameter1.com}
 
 services:
   terminal:
